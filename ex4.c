@@ -9,6 +9,12 @@ int main(){
   int head=0;
   int tail=0;
 
+  char name[N];
+  printf("Who are you?\n> ");
+
+  scanf("%s",name);
+  printf("Hello, %s!/n",name);
+  
   printf("Tossing a coin...\n");
 
   for( i=0; i<C; i++ ){
